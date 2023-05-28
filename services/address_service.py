@@ -2,6 +2,7 @@ import os
 from langchain.llms import OpenAI
 from langchain import PromptTemplate
 from dataclasses import dataclass
+
 # Load our OpenAI API key from our .env file
 openai_api_key= os.getenv("OPENAI_API_KEY")
 # Create our LLM
