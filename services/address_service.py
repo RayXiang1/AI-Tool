@@ -42,7 +42,7 @@ class AddressService:
     def resolveAddress(self) -> Address:
         # Create a template for our prompt
         template = """
-        I want to standardize the address below into English and Chinese base on the real addresses in the world: 
+        I want to standardize the address below into English and Chinese base on the real addresses in the world, 
         Please help me turn the address below into A-ten column spreadsheet:
         {raw_address}
 
